@@ -17,5 +17,5 @@ const dbWrite = async (name, data) => {
   return res;
 };
 
-exports.dbWrite = dbWrite;
-exports.dbView = dbView;
+exports.write = dbWrite;
+exports.view = dbView;

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import ReactQuill from "react-quill";
 import { Button, Input } from "@material-ui/core";
 import "react-quill/dist/quill.snow.css";
-import db from "../backend/db";
+import db from "./db";
 import { data } from "./roundsDataStructure";
 const ExampleForm = () => {
   //change/create state variables for each element in roundsDataStructure

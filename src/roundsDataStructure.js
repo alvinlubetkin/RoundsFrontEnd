@@ -1,4 +1,7 @@
 const stuff = {
+  name: "",
+  date: "",
+  hash: "",
   29: {
     conductivity: {
       p1: "",

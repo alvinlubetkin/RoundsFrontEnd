@@ -34,7 +34,7 @@ const ExampleForm = () => {
       <label>
         Conductivity P1
         <input
-          type="text"
+          type='text'
           value={conductivityP1}
           onChange={(event) => setConductivityP1(event.target.value)}
         />
@@ -42,12 +42,12 @@ const ExampleForm = () => {
       <label>
         Conductivity P2{" "}
         <input
-          type="text"
+          type='text'
           value={conductivityP2}
           onChange={(event) => setConductivityP2(event.target.value)}
         />
       </label>
-      <input type="submit" value="Submit" />
+      <input type='submit' value='Submit' />
     </form>
   );
 };
